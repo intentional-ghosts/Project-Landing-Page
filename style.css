@@ -7,4 +7,109 @@
 }
 body{
     font-family: roboto ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-size: 24px;
+    
+} 
+
+
+ul{
+ display: flex; 
+ gap: 15px;
+ list-style-type: none;
+ font-size: 18px;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+.introduction button{
+    width: 72px;
+    border-radius: 15%;
+    padding: 5px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.introduction h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero_pic{
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.content_header{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.content .container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.container img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.container p{
+    width: 200px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 60px;
+    justify-content: center;
+    align-items:center ;
+}
+
+.quote div p{
+    font-size: 36px;
 }
